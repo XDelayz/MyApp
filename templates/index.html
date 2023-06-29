@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Form</title>
+</head>
+<body>
+    <h1>My Form</h1>
+    <form action="{{ url_for('run_script') }}" method="post">
+        <label for="volume_ID">Volume ID:</label>
+        <input type="text" id="volume_ID" name="volume_ID"><br><br>
+        <label for="new_size_volume">New Size:</label>
+        <input type="text" id="new_size_volume" name="new_size_volume"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
