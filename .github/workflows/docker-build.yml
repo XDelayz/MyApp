@@ -20,4 +20,4 @@ jobs:
           password: "&Dec3mber"
       
       - name: Push Docker image
-        run: docker push flask_app:$(date +%s)
+        run: docker push atr29031995/flask_app
