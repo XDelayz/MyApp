@@ -14,7 +14,7 @@ def home():
         <form method="POST" action="/run_script">
             <label for="os_username">OS_USERNAME:</label>
             <input type="text" id="os_username" name="os_username"><br><br>
-            <label for="volume_id">Volume ID:</label>
+            <label for="volume_id">Volume ID3:</label>
             <input type="text" id="volume_id" name="volume_id"><br><br>
             <label for="new_size">New size:</label>
             <input type="text" id="new_size" name="new_size"><br><br>
